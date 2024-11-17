@@ -1,49 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Yoeks</title>
-</head>
+  </head>
 
-<body>
-    <nav class="container">
-        <div class="logo">
-            YOEKS
-        </div>
+  <body>
+    <div class="container">
+      <img
+        class="background-top-right"
+        src="./images/background-right-top.png"
+        alt="backgroun-top-right"
+      />
+    </div>
+    <nav>
+      <div class="container">
+        <div class="logo">YOEKS</div>
         <div class="navigations">
-            <a href="#">Home</a>
-            <a href="#">Explore</a>
-            <a href="#">About Us</a>
+          <a href="#">Home</a>
+          <a href="#">Explore</a>
+          <a href="#">About Us</a>
         </div>
         <div class="btn">
-            <a href="#">Let's Explore</a>
+          <a href="#">Let's Explore</a>
         </div>
+        <div class="wrapper-mobile-nav">
+          <div class="menu-toggle-mobile">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="navigations-mobile">
+            <div class="navigations">
+              <a href="#">Home</a>
+              <a href="#">Explore</a>
+              <a href="#">About Us</a>
+            </div>
+            <div class="btn">
+              <a href="#">Let's Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </nav>
 
     <header class="container">
-        <div class="text">
-            <div class="slogan">
-                <span>enjoy</span> <span>your</span> journey with fun 
-            </div>
-            <div class="desc">
-                Bali is a complete area to provide entertainment, especially for foreign tourist.
-            </div>
-            <div class="btn">
-                <a href="#">Buy Ticket Now</a>
-            </div>
+      <div class="header-left">
+        <div class="big-text">
+          <img src="./images/ibis-bird.png" alt="ibis-bird" width="100" />
+          <img src="./images/stork.png" alt="ibis-bird" width="50" />
+          <span>enjoy</span> <span>your</span> journey with fun
         </div>
-        <div class="img">
-            <img src="./images/header-img.jpg" alt="borobudur" width="500px">
+        <div class="small-text">
+          Bali is a complete area to provide entertainment, especially for
+          foreign tourist.
         </div>
+        <a href="#">Explore Now</a>
+        <img class="arrow-drawing" src="./images/arrow-drawing.png" alt="arrow-drawing" width="100">
+      </div>
+      <div class="header-right">
+        <img src="./images/header-img.jpg" alt="header-image" />
+      </div>
     </header>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

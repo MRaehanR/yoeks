@@ -11,21 +11,42 @@
 }
 
 .container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 100px;
   padding-right: 100px;
 }
 
+/* Background Top Right */
+body > .container {
+  position: relative;
+}
+
+.background-top-right {
+  position: absolute;
+  top: -1px;
+  right: 50px;
+}
+
 /* Nav */
 nav {
+  width: 100%;
+  z-index: 10;
+  position: relative;
+}
+
+nav .container {
+  padding-top: 35px;
+  padding-bottom: 25px;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  /* background-color: #00b2d9; */
-}
-
-nav.container {
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 nav .navigations {
@@ -51,63 +72,156 @@ nav .btn a {
   font-size: 14px;
 }
 
-/* Header */
+nav .container .wrapper-mobile-nav {
+  display: none !important;
+}
 
-header {
+nav .container .navigations-mobile {
+  display: none;
+}
+
+nav .container .menu-toggle-mobile {
+  display: none;
+  position: relative;
+  z-index: 1;
+}
+
+nav .container .menu-toggle-mobile input {
+  position: absolute;
+  width: 40px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2; /* in order to place the checkbox over the hamburguer */
+  -webkit-touch-callout: none;
+}
+
+nav .container .menu-toggle-mobile span {
+  display: block; /* to ensure that each span element occupies its own line. */
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px; /* create some spacing between the span elements. */
+  position: relative; /* allow for positioning changes in relation to the parent div.*/
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1; /* ensure that the span element is under the checkbox */
+}
+
+nav .container .wrapper-mobile-nav {
   display: flex;
-  padding-top: 100px;
-}
-
-header .text {
-  /* display: flex;
   flex-direction: column;
-  justify-content: center; */
-  margin-top: 50px;
-  margin-right: 100px;
-  width: 700px;
+  align-items: end;
 }
 
-header .text .slogan {
-  text-transform: uppercase;
-  font-size: 100px;
+@media screen and (max-width: 768px) {
+  nav .container > .navigations,
+  nav .container > .btn {
+    display: none;
+  }
+
+  nav .container .wrapper-mobile-nav {
+    display: flex !important;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  nav .container .menu-toggle-mobile {
+    display: block;
+  }
+
+  nav .wrapper-mobile-nav .navigations-mobile {
+    display: none;
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+  }
+
+  nav .container .navigations-mobile .navigations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav .container .navigations-mobile .btn {
+    margin-top: 50px;
+  }
+}
+
+/* Header */
+header.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}
+
+header.container .header-left {
+  width: 50%;
+  margin-top: 5rem;
+}
+
+header.container .header-left .big-text img {
+  position: absolute;
+}
+
+header.container .header-left .big-text img:nth-child(1) {
+  left: 100px;
+  top: -40px;
+}
+
+header.container .header-left .big-text img:nth-child(2) {
+  bottom: 20px;
+  right: 200px;
+}
+
+header.container .header-left .big-text {
+  position: relative;
+  font-size: 4.2rem;
   font-weight: 800;
+  text-transform: uppercase;/
 }
 
-header .text .slogan span:nth-child(1) {
+header.container .header-left .big-text span:nth-child(3) {
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
 
-header .text .slogan span:nth-child(2) {
+header.container .header-left .big-text span:nth-child(4) {
   color: var(--primary);
 }
 
-header .text .desc {
-  color: var(--gray);
-  font-size: 22px;
-  margin-top: 40px;
-  width: 500px;
+header.container .header-left .small-text {
+  width: 80%;
+  color: #7b7b7b;
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
 }
 
-header .text .btn {
-  margin-top: 100px;
-}
-
-header .text .btn a {
+header.container .header-left a {
   color: #ffff;
-  background-color: #f2ca02;
+  background-color: var(--secondary);
   border-style: none;
   text-decoration: none;
-  padding: 24px 42px;
+  padding: 15px 25px;
   border-radius: 50px;
   font-weight: 600;
-  font-size: 20px;
+  box-shadow: -8px 12px 50px hsl(50, 98%, 48%, 0.5);
 }
 
-header .img img {
+header.container .header-left img.arrow-drawing {
+  position: absolute;
+  bottom: 150px;
+  left: 350px;
+}
+
+header.container .header-right img {
+  width: 400px;
   border-radius: 50% / 35%;
-  border-top: 3px dashed #00b2d9;
-  border-left: 3px dashed #00b2d9;
-  padding: 30px;
+  border-top: 2px solid var(--secondary);
+  border-left: 2px solid var(--secondary);
+  box-shadow: -250px 20.0px 200.0px hsl(50, 98%, 48%, 0.1);
+  padding: 10px;
 }
