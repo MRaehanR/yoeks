@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f8f8;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  color: #00aaff;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #00aaff;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.flag-icon {
+  width: 20px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.language span {
+  font-size: 14px;
+  color: #333;
+}
+
+.login-button {
+  padding: 8px 16px;
+  border: 1px solid #00aaff;
+  border-radius: 20px;
+  color: #00aaff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #00aaff;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 50px;
+  background: linear-gradient(180deg, #ffe266 50%, #00aaff 50%) right,
+    /* Yellow on top, blue on bottom on the right */ #f9f9f9; /* Left side solid color */
+  background-size: 50% 100%; /* Right side covers 50% horizontally */
+  background-repeat: no-repeat;
+  height: calc(100vh - 80px);
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.text-content h1 {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #0c0c0c;
+}
+
+/* Assuming "Enjoy" is in a span with class "outlined-text" */
+.outlined-text {
+  color: white; /* Set text color to white */
+  -webkit-text-stroke: 2px black; /* Outline thickness and color */
+  text-shadow: 2px 2px 0 #000,
+    /* Optional shadow to enhance the outline effect */ -2px -2px 0 #000,
+    2px -2px 0 #000, -2px 2px 0 #000;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #00aaff;
+}
+
+.text-content p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+.buy-ticket {
+  margin-top: 30px;
+  padding: 15px 30px;
+  background-color: #ffe266;
+  border: none;
+  border-radius: 30px;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s;
+}
+
+.buy-ticket:hover {
+  background-color: #ffd633;
+}
+
+.image-content {
+  max-width: 40%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-circle {
+  width: 300px;
+  height: 300px;
+  background-color: #ffe266;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-circle img {
+  width: 100%;
+  height: auto;
+}
