@@ -299,7 +299,7 @@ header.container .header-right img {
   header.container .header-left .big-text .text-with-stork img {
     width: 2rem;
     left: 1.5rem;
-    top: -.5rem;
+    top: -0.5rem;
   }
 
   header.container .header-left .big-text {
@@ -328,4 +328,79 @@ header.container .header-right img {
     width: 250px;
     margin-right: 1rem;
   }
+}
+
+/* List Place */
+section.explore.container {
+  margin-top: 12rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.explore.container .left-images {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+section.explore.container .left-images .image-wrapper {
+  overflow: hidden;
+  max-height: 12rem;
+  max-width: 12rem;
+  height: 70%;
+  border-radius: 25px;
+  padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+}
+
+section.explore.container .left-images .image-wrapper:nth-child(1) {
+  background: radial-gradient(at center, #ffffff 0%, #0083ca 70%);
+}
+
+section.explore.container .left-images .image-wrapper:nth-child(2) {
+  background: radial-gradient(at center, #ffffff 0%, #f29d01 70%);
+}
+
+section.explore.container .left-images .image-wrapper:nth-child(3) {
+  background: radial-gradient(at center, #ffffff 0%, #01b2f2 70%);
+}
+
+section.explore.container .left-images .image-wrapper:nth-child(1) img {
+  width: 15em;
+}
+
+section.explore.container .left-images .image-wrapper:nth-child(2) img {
+  width: 12rem;
+}
+
+section.explore.container .left-images .image-wrapper h3 {
+  font-size: 2rem;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+section.explore.container .right-text {
+  text-align: end;
+  width: 30%;
+}
+
+section.explore.container .right-text img {
+  margin-bottom: 2rem;
+}
+
+section.explore.container .right-text .big-text {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+section.explore.container .right-text .small-text {
+  text-align: end;
+  font-size: 1.1rem;
+  color: #7b7b7b;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
