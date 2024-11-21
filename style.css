@@ -42,6 +42,12 @@ body > .container {
   }
 }
 
+.big-text {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 /* Nav */
 nav {
   width: 100%;
@@ -365,7 +371,7 @@ section.explore.container .left-images .image-wrapper:nth-child(2) {
 }
 
 section.explore.container .left-images .image-wrapper:nth-child(3) {
-  background: radial-gradient(at center, #ffffff 0%, #01b2f2 70%);
+  background: radial-gradient(at center, #ffffff 0%, #f9295f 70%);
 }
 
 section.explore.container .left-images .image-wrapper:nth-child(1) img {
@@ -391,16 +397,60 @@ section.explore.container .right-text img {
   margin-bottom: 2rem;
 }
 
-section.explore.container .right-text .big-text {
-  font-size: 3.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 section.explore.container .right-text .small-text {
   text-align: end;
   font-size: 1.1rem;
   color: #7b7b7b;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
+}
+
+/* Value Section */
+section.value.container {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+section.value.container .list-value .item i {
+  font-size: 1.5rem;
+  color: #ffff;
+  padding: 15px;
+  border-radius: 100%;
+}
+
+section.value.container .list-value .item:nth-child(1) i {
+  background: radial-gradient(at center, #ffffff 0%, #0083ca 70%);
+  box-shadow: 0px 0px 10px #0083ca;
+}
+
+section.value.container .list-value .item:nth-child(2) i {
+  background: radial-gradient(at center, #ffffff 0%, #f9295f 70%);
+  box-shadow: 0px 0px 10px #f9295f;
+}
+
+section.value.container .list-value .item:nth-child(3) i {
+  background: radial-gradient(at center, #ffffff 0%, #f29d01 70%);
+  box-shadow: 0px 0px 10px #f29d01;
+}
+
+section.value.container .list-value .item {
+  width: 30%;
+}
+
+section.value.container .list-value .item .title {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+section.value.container .list-value .item .desc {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+section.value.container .list-value {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
 }
