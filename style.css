@@ -439,14 +439,15 @@ section.value.container .list-value .item {
 
 section.value.container .list-value .item .title {
   margin-top: 1.5rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 section.value.container .list-value .item .desc {
   margin-top: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  color: var(--gray);
 }
 
 section.value.container .list-value {
