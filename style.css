@@ -1,7 +1,7 @@
 :root {
   font-family: Inter, sans-serif;
-  --primary: #00b2d9;
-  --secondary: #f2ca02;
+  --primary: #00889f;
+  --secondary: #ffa500;
   --gray: #7b7b7b;
 }
 
@@ -553,4 +553,30 @@ section.video .container .select-destination .right .title {
 
 section.video .container .select-destination .right .desc {
   font-size: 1.2rem;
+}
+
+/* Footer */
+footer.container {
+  height: 100px;
+  padding-top: 2rem;
+}
+
+footer.container .top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(133, 133, 133);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+footer.container .top a {
+  color: var(--gray);
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+footer.container .bottom {
+  display: flex;
+  justify-content: center;
 }
