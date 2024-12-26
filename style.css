@@ -462,7 +462,7 @@ section.value.container .list-value {
 section.video {
   background: url(./images/background.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 75%;
   background-position-y: bottom;
   padding-bottom: 10rem;
 }
