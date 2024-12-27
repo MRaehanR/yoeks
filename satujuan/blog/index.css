@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+nav {
+  position: absolute !important;
+}
+
+/* nav {
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+}
+
+.logo {
+  color: #009fd9;
+}
+
+.navigasi-btn {
+  display: flex;
+  gap: 30px;
+  margin-right: 600px;
+} */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.bgpict {
+  background-image: url(satujuan.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.vid iframe {
+  width: 540px;
+  height: 350px;
+  margin-top: 500px;
+  margin-left: 100px;
+  border-radius: 25px;
+  border: solid white;
+}
+
+.text-right {
+  color: white;
+  margin-top: 500px;
+}
+
+.bigtxt {
+  margin-left: 400px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: right;
+  width: 600px;
+}
+
+.smalltxt {
+  margin-top: 15px;
+  margin-left: 345px;
+  width: 650px;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.gambarkedai img {
+  width: 354px;
+  height: 472px;
+  border-radius: 20px;
+  margin-top: 100px;
+  padding: 7px;
+  border: 1px solid black;
+  margin-left: 100px;
+}
+
+.text-kedai {
+  margin-right: 100px;
+}
+
+.big {
+  width: 500px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.small {
+  width: 800px;
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+.txtmuseum {
+  margin-left: 100px;
+}
+
+.big-museum {
+  width: 550px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.small-museum {
+  width: 800px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.pict-museum img {
+  width: 354px;
+  height: 472px;
+  border-radius: 20px;
+  margin-top: 100px;
+  padding: 7px;
+  border: 1px solid black;
+  margin-right: 100px;
+}
+
+.menu {
+  padding-top: 100px;
+}
+
+.txtmenu {
+  padding-top: 20px;
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  border-top: 1px solid grey;
+}
+
+.pict-menu img {
+  width: 354px;
+  height: 472px;
+  border-radius: 20px;
+  margin-top: 100px;
+  padding: 7px;
+  border: 1px solid black;
+  margin-left: 100px;
+}
+
+.text-menu {
+  width: 800px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+
+.text-menu span:nth-child(1) {
+  font-weight: bold;
+}
+
+.text2 {
+  width: 800px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.text2 span:nth-child(1) {
+  font-weight: bold;
+}
+
+.pict2 img {
+  width: 354px;
+  height: 472px;
+  border-radius: 20px;
+  margin-top: 100px;
+  padding: 7px;
+  border: 1px solid black;
+  margin-right: 100px;
+}
+
+.galeri {
+  margin-top: 50px;
+  margin-left: 100px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.gallery {
+  background-image: url(WhatsApp\ Image\ 2024-11-28\ at\ 21.22.03_ffc52e11.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.text-jayeng {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  margin-left: 100px;
+}
+
+.pict-galeri {
+  margin-top: 65px;
+}
+
+.gambar1 img {
+  width: 380px;
+  height: 515px;
+  border-radius: 20px;
+}
+
+.gambar2 img {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.gambaratas {
+  margin-bottom: 15px;
+}
+
+.gambar3 img {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.gambaratas2 {
+  margin-bottom: 15px;
+}
+
+.ig {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 175px;
+  padding-right: 175px;
+  padding-bottom: 30px;
+}
+
+.navigasi-footer {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-navbar {
+  display: flex;
+  font-weight: bold;
+  padding-bottom: 12px;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-navbar a {
+  color: black;
+}
+
+.menu-navbar i {
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  color: #009fd9;
+  font-weight: bold;
+}

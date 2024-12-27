@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  list-style: none;
+}
+a {
+  color: black;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  gap: 40px;
+}
+
+.wrapper2 {
+  position: relative;
+}
+
+.navbar {
+  padding-left: 7%;
+  padding-top: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+}
+
+.navbar .kiri {
+  flex: 1;
+  display: flex;
+  gap: 450px;
+  align-items: center;
+}
+
+.navbar .kanan {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 100px;
+}
+
+.navbar .menu ul {
+  display: flex;
+  gap: 20px;
+}
+
+.kiri .box {
+  padding: 20px;
+  background-color: rgba(217, 217, 217, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+
+  border-radius: 20px;
+}
+
+.wrapper .kiri .box .images {
+  width: 100%;
+  height: 240px;
+  margin-bottom: 20px;
+}
+
+.kiri .box .images img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.kiri .box .text .judul button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: #ffad29;
+}
+.kiri .box .text {
+  flex: 1;
+}
+
+.kiri .box .text .judul h1 {
+  font-size: 2rem;
+  max-width: 15rem;
+}
+
+.kiri .box .text .judul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.kiri .box .text p {
+  font-size: 6rem;
+}
+.kanan .box {
+  padding: 20px;
+  background-color: rgba(217, 217, 217, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  width: 500px;
+
+  border-radius: 20px;
+}
+
+.kanan .box .images {
+  width: 100%;
+  height: 240px;
+  margin-top: 20px;
+}
+
+.kanan .box .images img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.kanan .box .text {
+  flex: 1;
+}
+
+.kanan .box .text .judul h1 {
+  font-size: 2rem;
+  max-width: 10rem;
+  font-weight: bold;
+}
+
+.kanan .box .text .judul button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: #ffad29;
+}
+
+.kanan .box .text .judul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.kanan .box .text .bodyText p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.kiri .box .text .bodyText p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.kiri .box .text .bodyText p span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.kanan .box .text .bodyText p span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

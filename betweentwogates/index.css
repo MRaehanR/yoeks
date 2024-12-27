@@ -1,0 +1,215 @@
+:root {
+  font-family: Inter, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  position: absolute !important;
+  color: #fff;
+}
+
+nav .navigations a {
+  color: #fff !important;
+}
+
+.background {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.8) 93%
+    ),
+    url("./images/bckgrd.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.container {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.logo {
+  font-weight: bold;
+  color: antiquewhite;
+}
+.navigasi a {
+  color: antiquewhite;
+  text-decoration: none;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.navigasi a:hover {
+  color: blue;
+}
+.login a {
+  text-decoration: none;
+  color: rgb(16, 11, 4);
+  background-color: aliceblue;
+  padding: 8px 14px;
+  border-radius: 15px;
+}
+.login a:hover {
+  color: blue;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.container .kiri .atas {
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: -400px;
+  color: antiquewhite;
+}
+.container .kiri .bawah {
+  color: antiquewhite;
+  font-size: medium;
+  margin-top: 10px;
+  text-align: justify;
+  width: 450px;
+}
+.container .hero {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1px;
+}
+.container .hero .kanan {
+  margin-top: -400px;
+}
+.container .kiri2 img {
+  width: 250px;
+  margin-left: 200px;
+}
+.container .atas2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+.container .bawah2 {
+  font-size: 20px;
+  text-align: justify;
+  width: 700px;
+}
+.container .hero2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  border-bottom: 2px solid #bbbbbb;
+  padding-bottom: 60px;
+}
+.background2 {
+  height: 70vh;
+  width: 100%;
+  background-image: url("./images/background-video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-top: 100px;
+}
+.container .atas3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: antiquewhite;
+  padding-top: 100px;
+}
+.container .tengah {
+  font-size: 20px;
+  background-color: aliceblue;
+  padding: 8px 14px;
+  border-radius: 15px;
+  display: justify;
+  width: 700px;
+  margin-top: 50px;
+}
+.container .tengah span {
+  font-weight: bold;
+}
+.container .bawah3 span {
+  font-weight: bold;
+}
+.container .bawah3 {
+  font-size: 20px;
+  background-color: aliceblue;
+  padding: 8px 14px;
+  border-radius: 15px;
+  display: justify;
+  width: 700px;
+  margin-top: 50px;
+}
+.container .hero3 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #bbbbbb;
+  padding-bottom: 150px;
+}
+.container .kanan3 {
+  background-color: aliceblue;
+  width: 290px;
+  height: 400px;
+  margin-top: 70px;
+}
+.container .atas4 {
+  font-weight: bold;
+  font-size: 50px;
+}
+.container .bawah4 {
+  font-size: 17px;
+  text-align: left;
+  width: 700px;
+  margin-top: 50px;
+}
+.container .hero4 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 200px;
+}
+.container .kiri5 {
+  font-size: 20px;
+  text-align: right;
+  width: 700px;
+  margin-top: 50px;
+}
+.container .hero5 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+footer.container {
+  padding-top: 10px;
+}
+
+footer.container .bawah1 {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-bottom: 2px solid #bbbbbb;
+  padding-bottom: 10px;
+}
+
+footer.container .bawah1 a {
+  text-decoration: none;
+  margin-right: 35px;
+  font-weight: bold;
+  color: black;
+}
+
+footer.container .bawah1 a:hover {
+  color: rgb(50, 200, 238);
+}
+
+.container .bawah2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-weight: bold;
+  color: rgb(50, 200, 238);
+  font-size: 20px;
+}

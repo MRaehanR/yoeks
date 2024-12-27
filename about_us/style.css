@@ -9,6 +9,15 @@ a {
   color: #000;
 }
 
+nav {
+  position: absolute !important;
+  color: #fff;
+}
+
+nav .navigations a {
+  color: #fff !important;
+}
+
 .hero {
   display: flex;
   justify-content: center;
