@@ -1,0 +1,196 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.background {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.8) 93%
+    ),
+    url("./gambar/Atas.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.nav a:hover {
+  color: black;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(50, 200, 238);
+}
+
+.button a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  padding: 8px 14px;
+  border-radius: 15px;
+}
+
+.button a:hover {
+  color: rgb(50, 200, 238);
+}
+
+.container {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.container .kiri .atas {
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+}
+
+.container .kiri .bawah {
+  text-align: left;
+  width: 700px;
+  margin-top: 20px;
+  color: white;
+}
+
+.container .hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -450px;
+}
+
+.container .kiri2 img {
+  width: 500px;
+  border-radius: 20px;
+}
+
+.container .kanan2 {
+  text-align: justify;
+  width: 700px;
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+.container .hero2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300px;
+}
+
+.container .kanan3 img {
+  width: 620px;
+  border-radius: 20px;
+}
+
+.container .kiri3 {
+  text-align: justify;
+  width: 700px;
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+.container .hero3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300x;
+}
+
+.background2 {
+  background-image: url("./gambar/background-video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+  margin-top: 90px;
+}
+
+.container .hero4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+.container .hero4 span {
+  background-color: white;
+  padding: 1px 10px;
+  color: rgb(50, 200, 238);
+}
+
+.container .hero5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -700px;
+  padding-bottom: 1px;
+}
+
+.container .hero6 {
+  margin-top: -100px;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 26px;
+}
+
+.container .hero7 .atas2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 50px;
+  border-bottom: 2px solid #bbbbbb;
+  padding-bottom: 10px;
+}
+
+.container .hero7 .atas2a a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  margin-right: 25px;
+}
+
+.container .hero7 .atas2a a:hover {
+  color: rgb(50, 200, 238);
+}
+
+.container .hero7 .bawah2a a {
+  color: black;
+  font-size: 25px;
+}
+
+.container .hero7 .bawah2a a:hover {
+  color: rgb(50, 200, 238);
+}
+
+.container .hero7 .bawah2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(50, 200, 238);
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}

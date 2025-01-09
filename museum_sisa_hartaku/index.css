@@ -1,0 +1,333 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+nav {
+  position: absolute !important;
+  color: #fff;
+}
+
+nav .navigations a {
+  color: #fff !important;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+  font-size: 19px;
+  z-index: 5;
+}
+
+.navbar .logo img {
+  width: 100px;
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 100px;
+  font-weight: bold;
+}
+
+.navbar .menu a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar .menu a:hover {
+  color: #00bbff;
+}
+
+.navbar .contact button {
+  cursor: pointer;
+  border-radius: 20% / 50%;
+  background-color: #ffffff;
+  border: none;
+  padding: 12px;
+  color: rgb(0, 217, 255);
+  font-weight: bold;
+  margin-right: 50px;
+  transition: 0.3s;
+}
+
+.navbar .contact button:hover {
+  background-color: rgb(184, 184, 184);
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 350px;
+  align-items: end;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.8) 93%
+    ),
+    url("./img\ yoeks/museum.jpg");
+  background-size: cover;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 100%;
+  height: 100vh;
+  padding: 70px;
+  box-shadow: 5px 6px 50px 1px rgb(106, 106, 106);
+}
+
+.hero .artikel {
+  flex-direction: column;
+  max-width: 30rem;
+  display: flex;
+  color: white;
+}
+
+.hero .artikel h1 {
+  font-size: 3.8rem;
+}
+.hero .artikel p {
+  font-size: 1rem;
+}
+.hero .vid {
+  display: flex;
+}
+
+.hero .vid iframe {
+  border-radius: 20px;
+}
+
+.navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 100;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.content {
+  display: flex;
+  margin-top: 100px;
+  padding: 0 7%;
+  align-items: center;
+  gap: 250px;
+  margin-left: 200px;
+}
+
+.content .img {
+  position: relative;
+}
+
+.content .img::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.content .artikel1 {
+  flex-direction: column;
+  max-width: 30rem;
+  display: flex;
+  color: rgb(0, 0, 0);
+}
+
+.content .artikel1 h1 {
+  font-size: 3rem;
+}
+
+.content .artikel1 p {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.line {
+  width: 70%;
+  height: 1px;
+  background-color: black;
+  margin-top: 10%;
+  margin-left: 255px;
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  left: 150px;
+  margin-top: 70px;
+  font-size: 2.5rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.header .txt2 {
+  color: white;
+}
+
+.boxgrey {
+  width: 280px;
+  height: 550px;
+  background-color: #ebf9fa;
+  position: absolute;
+  left: 0px;
+  margin-top: -170px;
+}
+
+.semigrey {
+  width: 280px;
+  height: 260px;
+  background-color: #ebf9fa;
+  position: absolute;
+  left: 0px;
+  border-radius: 50%;
+  margin-top: -280px;
+}
+
+.patern {
+  width: 100%;
+  height: 800px;
+  background-image: url("./img\ yoeks/patern.png");
+  background-size: cover;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.patern .foto {
+  width: 500px;
+  height: 350px;
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px black;
+}
+
+.patern .foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.content2 {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 140px;
+}
+
+.content2 .artikel2 {
+  flex-direction: column;
+  max-width: 45rem;
+  margin-right: 100px;
+}
+
+.content2 h2 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.content2 p {
+  font-size: 1rem;
+  margin-top: 30px;
+}
+.content2 .img {
+  width: 318px;
+  height: 358px;
+  background-color: grey;
+  border-radius: 13px;
+  position: relative;
+  margin-left: 100px;
+  margin-top: -60px;
+}
+
+.content2 .img img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.content2 .img::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  right: -10px;
+  bottom: -78px;
+  border: 2px solid black;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.navbawah {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 125px;
+}
+
+.navbawah .footer {
+  display: flex;
+  gap: 50px;
+}
+
+.navbawah .footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.navbawah .footer a:hover {
+  color: #00bbff;
+}
+
+.ig {
+  width: 27px;
+  height: 27px;
+}
+
+.ig img {
+  object-fit: cover;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.ig img:hover {
+  background-color: #cbcbcb;
+  border-radius: 8px;
+}
+
+.linebawah {
+  width: 70%;
+  height: 1px;
+  background-color: black;
+  margin-left: 255px;
+  margin-top: 15px;
+}
+
+.yoeks {
+  width: 100px;
+  height: 100px;
+  margin-left: 820px;
+}
+
+.yoeks img {
+  object-fit: cover;
+  width: 100%;
+}

@@ -77,7 +77,7 @@ nav .navigations {
 
 nav .navigations a {
   text-decoration: none;
-  color: var(--gray);
+  color: #000;
   font-weight: 500;
 }
 
@@ -362,6 +362,10 @@ section.explore.container .left-images .image-wrapper {
   background: #ffffff;
 }
 
+.tugu {
+  margin-top: -170px;
+}
+
 section.explore.container .left-images .image-wrapper:nth-child(1) {
   background: radial-gradient(at center, #ffffff 0%, #0083ca 70%);
 }
@@ -462,9 +466,13 @@ section.value.container .list-value {
 section.video {
   background: url(./images/background.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 75%;
   background-position-y: bottom;
   padding-bottom: 10rem;
+}
+
+section.video iframe {
+  border-radius: 10px;
 }
 
 section.video .container {
